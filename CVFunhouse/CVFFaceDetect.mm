@@ -59,7 +59,7 @@ double scale = 1;
                              1.2, 2, 0
                              //|CV_HAAR_FIND_BIGGEST_OBJECT
                              //|CV_HAAR_DO_ROUGH_SEARCH
-                             |CV_HAAR_SCALE_IMAGE
+                             |CASCADE_SCALE_IMAGE
                              ,
                              cv::Size(75, 75) );
     for( vector<cv::Rect>::const_iterator r = faces.begin(); r != faces.end(); r++, i++ )

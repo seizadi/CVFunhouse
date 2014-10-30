@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AAA90A019FB419E0027EEFD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA909F19FB419E0027EEFD /* opencv2.framework */; };
 		4208EEAD1612D46D006E7842 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4208EEAC1612D46D006E7842 /* Default-568h@2x.png */; };
 		4209534315C0AC0600C37CD8 /* CVFLucasKanade.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4209534215C0AC0600C37CD8 /* CVFLucasKanade.mm */; };
-		4209534715C0BEB200C37CD8 /* CVFMotionTemplates.m in Sources */ = {isa = PBXBuildFile; fileRef = 4209534615C0BEB200C37CD8 /* CVFMotionTemplates.m */; };
+		4209534715C0BEB200C37CD8 /* CVFMotionTemplates.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4209534615C0BEB200C37CD8 /* CVFMotionTemplates.mm */; };
 		420A3F8515BC6724004804EF /* CVFPassThru.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A3F8415BC6724004804EF /* CVFPassThru.m */; };
 		420A4FAF16C4B45200256C66 /* CVFFarneback.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAA16C4B45200256C66 /* CVFFarneback.html */; };
 		420A4FB016C4B45200256C66 /* CVFLaplace.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAB16C4B45200256C66 /* CVFLaplace.html */; };
 		420A4FB116C4B45200256C66 /* CVFLucasKanade.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAC16C4B45200256C66 /* CVFLucasKanade.html */; };
 		420A4FB216C4B45200256C66 /* CVFMotionTemplates.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAD16C4B45200256C66 /* CVFMotionTemplates.html */; };
 		420A4FB316C4B45200256C66 /* CVFPassThru.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAE16C4B45200256C66 /* CVFPassThru.html */; };
-		42171D1215BA6C19008BEA68 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42171D1115BA6C19008BEA68 /* opencv2.framework */; };
 		421897E616BC879900AC716C /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 421897E516BC879900AC716C /* CloseButton.png */; };
 		423FA83715DB1AD3001D30AC /* SwitchCameraIcon44.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FA83515DB1AD3001D30AC /* SwitchCameraIcon44.png */; };
 		423FA83815DB1AD3001D30AC /* SwitchCameraIcon44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FA83615DB1AD3001D30AC /* SwitchCameraIcon44@2x.png */; };
@@ -35,7 +35,7 @@
 		427DEE02188A413800CAD1E1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427DEE01188A413800CAD1E1 /* AssetsLibrary.framework */; };
 		4285252815BF698800622EE8 /* CVFFaceDetect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4285252715BF698800622EE8 /* CVFFaceDetect.mm */; };
 		4285252F15BF750000622EE8 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4285252E15BF750000622EE8 /* haarcascade_frontalface_alt.xml */; };
-		4285253215BF792F00622EE8 /* CVFFarneback.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285253115BF792F00622EE8 /* CVFFarneback.m */; };
+		4285253215BF792F00622EE8 /* CVFFarneback.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4285253115BF792F00622EE8 /* CVFFarneback.mm */; };
 		4285253515BF83FF00622EE8 /* CVFLaplace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4285253415BF83FF00622EE8 /* CVFLaplace.mm */; };
 		428D978416A275450073329A /* CVFFaceDetect.html in Resources */ = {isa = PBXBuildFile; fileRef = 428D978216A275450073329A /* CVFFaceDetect.html */; };
 		428D978516A275450073329A /* CVFCannyDemo.html in Resources */ = {isa = PBXBuildFile; fileRef = 428D978316A275450073329A /* CVFCannyDemo.html */; };
@@ -59,11 +59,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAA909F19FB419E0027EEFD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		4208EEAC1612D46D006E7842 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4209534115C0ABF000C37CD8 /* CVFLucasKanade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFLucasKanade.h; path = CVFunhouse/CVFLucasKanade.h; sourceTree = "<group>"; };
 		4209534215C0AC0600C37CD8 /* CVFLucasKanade.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVFLucasKanade.mm; path = CVFunhouse/CVFLucasKanade.mm; sourceTree = "<group>"; };
 		4209534515C0BE8A00C37CD8 /* CVFMotionTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFMotionTemplates.h; path = CVFunhouse/CVFMotionTemplates.h; sourceTree = "<group>"; };
-		4209534615C0BEB200C37CD8 /* CVFMotionTemplates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVFMotionTemplates.m; path = CVFunhouse/CVFMotionTemplates.m; sourceTree = "<group>"; };
+		4209534615C0BEB200C37CD8 /* CVFMotionTemplates.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVFMotionTemplates.mm; path = CVFunhouse/CVFMotionTemplates.mm; sourceTree = "<group>"; };
 		420A3F8315BC6724004804EF /* CVFPassThru.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFPassThru.h; path = CVFunhouse/CVFPassThru.h; sourceTree = "<group>"; };
 		420A3F8415BC6724004804EF /* CVFPassThru.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVFPassThru.m; path = CVFunhouse/CVFPassThru.m; sourceTree = "<group>"; };
 		420A4FAA16C4B45200256C66 /* CVFFarneback.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFFarneback.html; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		420A4FAC16C4B45200256C66 /* CVFLucasKanade.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFLucasKanade.html; sourceTree = "<group>"; };
 		420A4FAD16C4B45200256C66 /* CVFMotionTemplates.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFMotionTemplates.html; sourceTree = "<group>"; };
 		420A4FAE16C4B45200256C66 /* CVFPassThru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFPassThru.html; sourceTree = "<group>"; };
-		42171D1115BA6C19008BEA68 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		421897E516BC879900AC716C /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
 		423FA83515DB1AD3001D30AC /* SwitchCameraIcon44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchCameraIcon44.png; sourceTree = "<group>"; };
 		423FA83615DB1AD3001D30AC /* SwitchCameraIcon44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwitchCameraIcon44@2x.png"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		4285252715BF698800622EE8 /* CVFFaceDetect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVFFaceDetect.mm; path = CVFunhouse/CVFFaceDetect.mm; sourceTree = "<group>"; };
 		4285252E15BF750000622EE8 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
 		4285253015BF791600622EE8 /* CVFFarneback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFFarneback.h; path = CVFunhouse/CVFFarneback.h; sourceTree = "<group>"; };
-		4285253115BF792F00622EE8 /* CVFFarneback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVFFarneback.m; path = CVFunhouse/CVFFarneback.m; sourceTree = "<group>"; };
+		4285253115BF792F00622EE8 /* CVFFarneback.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVFFarneback.mm; path = CVFunhouse/CVFFarneback.mm; sourceTree = "<group>"; };
 		4285253315BF83E700622EE8 /* CVFLaplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFLaplace.h; path = CVFunhouse/CVFLaplace.h; sourceTree = "<group>"; };
 		4285253415BF83FF00622EE8 /* CVFLaplace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVFLaplace.mm; path = CVFunhouse/CVFLaplace.mm; sourceTree = "<group>"; };
 		428D978216A275450073329A /* CVFFaceDetect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFFaceDetect.html; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 				425370901508384900BFE3C0 /* CoreMedia.framework in Frameworks */,
 				425370911508384900BFE3C0 /* CoreVideo.framework in Frameworks */,
 				4250A8E91714C82200B880C3 /* GLKit.framework in Frameworks */,
-				42171D1215BA6C19008BEA68 /* opencv2.framework in Frameworks */,
 				4249F7AB16697A0900271FD5 /* libc++.dylib in Frameworks */,
 				4275AFCC15095A2C00D74063 /* libz.dylib in Frameworks */,
+				3AAA90A019FB419E0027EEFD /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,13 +162,13 @@
 				4285252615BF696700622EE8 /* CVFFaceDetect.h */,
 				4285252715BF698800622EE8 /* CVFFaceDetect.mm */,
 				4285253015BF791600622EE8 /* CVFFarneback.h */,
-				4285253115BF792F00622EE8 /* CVFFarneback.m */,
+				4285253115BF792F00622EE8 /* CVFFarneback.mm */,
 				4285253315BF83E700622EE8 /* CVFLaplace.h */,
 				4285253415BF83FF00622EE8 /* CVFLaplace.mm */,
 				4209534115C0ABF000C37CD8 /* CVFLucasKanade.h */,
 				4209534215C0AC0600C37CD8 /* CVFLucasKanade.mm */,
 				4209534515C0BE8A00C37CD8 /* CVFMotionTemplates.h */,
-				4209534615C0BEB200C37CD8 /* CVFMotionTemplates.m */,
+				4209534615C0BEB200C37CD8 /* CVFMotionTemplates.mm */,
 				4262EDEC17AB70BC00DED325 /* CVFHough.h */,
 				4262EDED17AB70BC00DED325 /* CVFHough.mm */,
 			);
@@ -226,6 +226,7 @@
 		42AA08561508314600B379F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AAA909F19FB419E0027EEFD /* opencv2.framework */,
 				427DEE01188A413800CAD1E1 /* AssetsLibrary.framework */,
 				42AA08571508314600B379F4 /* UIKit.framework */,
 				42AA08591508314600B379F4 /* Foundation.framework */,
@@ -234,7 +235,6 @@
 				4253708E1508384900BFE3C0 /* CoreMedia.framework */,
 				4253708F1508384900BFE3C0 /* CoreVideo.framework */,
 				4250A8E81714C82200B880C3 /* GLKit.framework */,
-				42171D1115BA6C19008BEA68 /* opencv2.framework */,
 				4275AFCB15095A2C00D74063 /* libz.dylib */,
 				4249F7AA16697A0900271FD5 /* libc++.dylib */,
 			);
@@ -298,11 +298,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CVF;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Jera Design LLC";
 				TargetAttributes = {
 					42AA08521508314600B379F4 = {
-						DevelopmentTeam = 2HTMSZT3TA;
+						DevelopmentTeam = 2SGTDQ2YBP;
 					};
 				};
 			};
@@ -371,10 +371,10 @@
 				CD7E937715BB5354004D709A /* CVFSephiaDemo.m in Sources */,
 				420A3F8515BC6724004804EF /* CVFPassThru.m in Sources */,
 				4285252815BF698800622EE8 /* CVFFaceDetect.mm in Sources */,
-				4285253215BF792F00622EE8 /* CVFFarneback.m in Sources */,
+				4285253215BF792F00622EE8 /* CVFFarneback.mm in Sources */,
 				4285253515BF83FF00622EE8 /* CVFLaplace.mm in Sources */,
 				4209534315C0AC0600C37CD8 /* CVFLucasKanade.mm in Sources */,
-				4209534715C0BEB200C37CD8 /* CVFMotionTemplates.m in Sources */,
+				4209534715C0BEB200C37CD8 /* CVFMotionTemplates.mm in Sources */,
 				4262EDEE17AB70BC00DED325 /* CVFHough.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,9 +421,12 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Soheil Eizadi (585LTPEXQ5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -442,7 +445,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,9 +469,12 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Soheil Eizadi (585LTPEXQ5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -480,7 +486,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,9 +503,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CVFunhouse/CVFunhouse-Prefix.pch";
@@ -507,6 +515,7 @@
 				INFOPLIST_FILE = "CVFunhouse/CVFunhouse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -515,9 +524,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CVFunhouse/CVFunhouse-Prefix.pch";
@@ -525,6 +536,7 @@
 				INFOPLIST_FILE = "CVFunhouse/CVFunhouse-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -210,7 +210,7 @@
 {
 #pragma unused(sender)
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
-        [[segue destinationViewController] setDelegate:self];
+        [[segue destinationViewController] setDelegate:(id)self];
         if ([segue.destinationViewController respondsToSelector:@selector(setDemoList:)]) {
             [segue.destinationViewController performSelector:@selector(setDemoList:)
                                                   withObject:_demoList];
@@ -359,10 +359,11 @@
     [_session setSessionPreset:AVCaptureSessionPresetMedium];
     AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:_cameraDevice
                                                                         error:&error];
+    // TODO: if input is nil should not go any further, addInput will crash
     if (input == nil) {
         NSLog(@"%@", error);
     }
-    
+
     [_session addInput:input];
     
     // Create a VideoDataOutput and add it to the session
