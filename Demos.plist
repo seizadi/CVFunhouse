@@ -15,8 +15,8 @@
 		<string>CVFLaplace</string>
 	</array>
 	<array>
-		<string>Farneback</string>
-		<string>CVFFarneback</string>
+		<string>OCR</string>
+		<string>CVFOcr</string>
 	</array>
 	<array>
 		<string>Lucas-Kanade</string>

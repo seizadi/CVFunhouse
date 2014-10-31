@@ -13,13 +13,12 @@
 
 #import "CVFCannyDemo.h"
 #import "CVFFaceDetect.h"
-#import "CVFFarneback.h"
 #import "CVFLaplace.h"
 #import "CVFLucasKanade.h"
 #import "CVFMotionTemplates.h"
-
 #import "CVFSephiaDemo.h"
 #import "CVFPassThru.h"
+#import "CVFOcr.h"
 
 @implementation CVFMainViewController {
     AVCaptureDevice *_cameraDevice;
